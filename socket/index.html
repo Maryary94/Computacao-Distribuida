@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Lugares livres</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font: 13px Helvetica, Arial;
+      }
+
+      form {
+        background: #000;
+        padding: 3px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+
+      form input {
+        border: 0;
+        padding: 10px;
+        width: 90%;
+        margin-right: 0.5%;
+      }
+
+      form button {
+        width: 9%;
+        background: rgb(130, 224, 255);
+        border: none;
+        padding: 10px;
+      }
+
+      #messages {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      #messages li {
+        padding: 5px 10px;
+      }
+
+      #messages li:nth-child(odd) {
+        background: #eee;
+      }
+    </style>
+  </head>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+
+  <body>
+    <!-- <span id="localDaMensagem"></span>   -->
+
+    <ul id="messages"></ul>
+    <form action="">
+      <input id="m" autocomplete="off" /><button>Enviar</button>
+    </form>
+    <script>
+      const socket = io.connect("http://localhost:3000");
+
+      $("form").submit(function (event) {
+        event.preventDefault();
+        const msg = $("#m").val();
+        console.log(msg);
+
+        $("#messages").append($("<li>").text(msg));
+        socket.emit("echo", { msg });
+        $("#m").val(""); // limpar a caixa de texto
+      });
+
+      socket.on("news", (data) => {
+        console.log(data);
+      });
+
+      socket.on("recebi a resposta", (data) => {
+        console.log(data);
+      });
+
+      const state = {
+        form: {
+          name: "Jorge",
+          idade: 30,
+        },
+        validacao: false,
+        n: "coisas",
+      };
+
+      const esperarQueOClientePreenchaOFormulario = () => {
+        socket.emit("formulario preenchido", state.form);
+        return "ok";
+      };
+    </script>
+  </body>
+</html>

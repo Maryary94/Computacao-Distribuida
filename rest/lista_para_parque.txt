@@ -1,0 +1,257 @@
+{
+	"parque":"NorteShopping",
+	"price":1.7,
+	"lugares":[ 
+		{
+		"lugar": 1,
+		"disponivel": 1,
+		"tipo":0
+		},
+		{
+		"lugar": 2,
+		"disponivel": 1,
+		"tipo":0
+		},
+		{
+		"lugar": 3,
+		"disponivel": 1,
+		"tipo":1
+		},
+		{
+		"lugar": 4,
+		"disponivel": 1,
+		"tipo":1
+		},
+		{
+		"lugar": 5,
+		"disponivel": 1,
+		"tipo":1
+		},
+		{
+		"lugar": 6,
+		"disponivel": 1,
+		"tipo":1
+		},
+		{
+		"lugar": 7,
+		"disponivel": 1,
+		"tipo":1
+		},
+		{
+		"lugar": 8,
+		"disponivel": 1,
+		"tipo":1
+		},
+		{
+		"lugar": 9,
+		"disponivel": 1,
+		"tipo":1
+		},
+		{
+		"lugar": 10,
+		"disponivel": 1,
+		"tipo":1
+		},
+		{
+		"lugar": 11,
+		"disponivel": 1,
+		"tipo":0
+		},
+		{
+		"lugar": 12,
+		"disponivel": 1,
+		"tipo":0
+		},
+		{
+		"lugar": 13,
+		"disponivel": 1,
+		"tipo":1
+		},
+		{
+		"lugar": 14,
+		"disponivel": 1,
+		"tipo":1
+		},
+		{
+		"lugar": 15,
+		"disponivel": 1,
+		"tipo":1
+		},
+		{
+		"lugar": 16,
+		"disponivel": 1,
+		"tipo":1
+		},
+		{
+		"lugar": 17,
+		"disponivel": 1,
+		"tipo":1
+		},
+		{
+		"lugar": 18,
+		"disponivel": 1,
+		"tipo":1
+		},
+		{
+		"lugar": 19,
+		"disponivel": 1,
+		"tipo":1
+		},
+		{
+		"lugar": 20,
+		"disponivel": 1,
+		"tipo":1
+		},
+		{
+		"lugar": 21,
+		"disponivel": 1,
+		"tipo":0
+		},
+		{
+		"lugar": 22,
+		"disponivel": 1,
+		"tipo":0
+		},
+		{
+		"lugar": 23,
+		"disponivel": 1,
+		"tipo":1
+		},
+		{
+		"lugar": 24,
+		"disponivel": 1,
+		"tipo":1
+		},
+		{
+		"lugar": 25,
+		"disponivel": 1,
+		"tipo":1
+		},
+		{
+		"lugar": 26,
+		"disponivel": 1,
+		"tipo":1
+		},
+		{
+		"lugar": 27,
+		"disponivel": 1,
+		"tipo":1
+		},
+		{
+		"lugar": 28,
+		"disponivel": 1,
+		"tipo":1
+		},
+		{
+		"lugar": 29,
+		"disponivel": 1,
+		"tipo":1
+		},
+		{
+		"lugar": 30,
+		"disponivel": 1,
+		"tipo":1
+		},
+		{
+		"lugar": 31,
+		"disponivel": 1,
+		"tipo":0
+		},
+		{
+		"lugar": 32,
+		"disponivel": 1,
+		"tipo":0
+		},
+		{
+		"lugar": 33,
+		"disponivel": 1,
+		"tipo":1
+		},
+		{
+		"lugar": 34,
+		"disponivel": 1,
+		"tipo":1
+		},
+		{
+		"lugar": 35,
+		"disponivel": 1,
+		"tipo":1
+		},
+		{
+		"lugar": 36,
+		"disponivel": 1,
+		"tipo":1
+		},
+		{
+		"lugar": 37,
+		"disponivel": 1,
+		"tipo":1
+		},
+		{
+		"lugar": 38,
+		"disponivel": 1,
+		"tipo":1
+		},
+		{
+		"lugar": 39,
+		"disponivel": 1,
+		"tipo":1
+		},
+		{
+		"lugar": 40,
+		"disponivel": 1,
+		"tipo":1
+		},
+		{
+		"lugar": 41,
+		"disponivel": 1,
+		"tipo":0
+		},
+		{
+		"lugar": 42,
+		"disponivel": 1,
+		"tipo":0
+		},
+		{
+		"lugar": 43,
+		"disponivel": 1,
+		"tipo":1
+		},
+		{
+		"lugar": 44,
+		"disponivel": 1,
+		"tipo":1
+		},
+		{
+		"lugar": 45,
+		"disponivel": 1,
+		"tipo":1
+		},
+		{
+		"lugar": 46,
+		"disponivel": 1,
+		"tipo":1
+		},
+		{
+		"lugar": 47,
+		"disponivel": 1,
+		"tipo":1
+		},
+		{
+		"lugar": 48,
+		"disponivel": 1,
+		"tipo":1
+		},
+		{
+		"lugar": 49,
+		"disponivel": 1,
+		"tipo":1
+		},
+		{
+		"lugar": 50,
+		"disponivel": 1,
+		"tipo":1
+		}
+		]
+	
+}

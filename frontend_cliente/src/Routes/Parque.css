@@ -1,0 +1,21 @@
+.container-column-Parque {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  margin-right: 30%;
+  margin-left: 30%;
+  margin-bottom: 4%;
+}
+.container-column-Escolha {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30%;
+  margin-left: 30%;
+}
+.MuiFormControl-root {
+  min-width: 100% !important;
+  margin: 0px !important;
+}
+.title {
+  text-align: center;
+}
